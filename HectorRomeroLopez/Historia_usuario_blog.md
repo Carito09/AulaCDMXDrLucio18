@@ -33,19 +33,30 @@ Criterios de aceptación
 * Que me permita capturar mi usuario o correo electrónico para registrarme
 * Que verifique que el usuario o correo electónico no esten registrados previamente, si existen que genere un mensaje indicando lo ocurrido
 * Que me permita capturar la contraseña de mi usuario con la máscara para que no se vea esta información, la contraseña debe tener al memos 8 carácteres como mínimo(pueden ser letras mayúsculas o minúsculas, números, carácteres especiales como %&#!)
-* Que me premita capturar mi nombre
-* Que me premita capturar mi(s) apellido(s)
-* Que me premita capturar el estado o localidad donde vivo
-* Que me premita capturar la fecha de nacimiento (verificando que la fecha sea correcta y sea al menos 18 años anterior a la fecha actual)
-* Que haya una opción para confirmar los términos del servicio y las políticas de privacidad
-* Que haya un botón para aceptar la solicitud 
-* Que se despliegue una pantalla para confirmar el proceso
-* Si el proceso se realiza de forma correcta que envié un correo a la cuenta del solicitante para dar la bienvenida, 
-   de lo contrario que genere el mensaje "Error al procesar el registro al blog"
-* Que haya un botón para cancelar el proceso
+* Que me permita capturar nuevamente la contraseña con la máscara para validar que sea la misma que la anterior capturada
+* Que haya un botón para aceptar el registro y al seleccionarlo se despliegue una pantalla de confirmación con el boton "Aceptar" y "Cancelar". Si se selecciona el botòn Aceptar para que se envié un correo a la cuenta del solicitante para dar la bienvenida, Si se   selecciona el botòn Cancelar generar el mensaje "Error al procesar el registro al blog"
 
 
 Historia de Usuario 4
+Yo como USUARIO DEL BLOG Deseo PODER COMPLETAR MI PERFIL   
+
+Criterios de aceptación
+* Que haya una opción "Perfil" dentro del blog 
+* Que se despliegue una pantalla de captura
+* Que me premita capturar mi nombre
+* Que me premita capturar mi(s) apellido(s)
+* Que me permita seleccionar el pais donde vivo de una lista de paises
+* Que me premita seleccionar el estado o localidad donde vivo
+* Que me premita capturar la fecha de nacimiento (verificando que la fecha sea correcta y sea al menos 18 años anterior a la fecha actual)
+* Que haya una opción para confirmar los términos del servicio y las políticas de privacidad
+* Que haya un botón para aceptar los cambios 
+   * Que se despliegue una pantalla para confirmar el proceso
+   * Si el proceso se realiza de forma correcta se genere el mensaje "Se actualizaron los cambios", 
+      de lo contrario que genere el mensaje "Error al actualizar datos"
+* Que haya un botón para cancelar los cambios
+
+
+Historia de Usuario 5
 Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BLOG 
 
 Criterios de aceptación
