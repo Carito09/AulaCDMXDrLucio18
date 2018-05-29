@@ -5,15 +5,26 @@ Yo como USUARIO DEL BLOG Deseo CONSULTAR LUGARES A NIVEL NACIONAL E INTERNACIONA
 
 Criterios de aceptación
 * Que los lugares estén organizados por región
-* Que al información cuente con fotografias 
-* Que haya una descripcion amplia del lugar
-* Que mencionen las rutas de como llegar
+* Que al seleccionar la región me despliegue una lista de países a elegir 
+* Que me permita seleccionar un país 
+* Que la información cuente con fotografías 
+* Que haya una descripción amplia del lugar
+* Que mencionen las rutas de cómo llegar
 * Que mencionen los medios de transporte existentes
 * Que mencionen los sitios de interés a visitar dentro del lugar 
 * Que haya una calificación del lugar en valores de 1 a 10
 
-
 Historia de Usuario 2
+Yo como USUARIO DEL BLOG Deseo QUE SE MUESTRE INFORMACIÓN DE VARIAS OPCIONES UN CONTINENTE
+
+Criterios de aceptación
+* Que una vez seleccionado el mapa me despliegue una nueva pantalla con los países de esa opción 
+* Que dentro de cada país me despliegue lugares para visitar. Y al seleccionar algún país me despliegue 
+  información sobre lugares a visitar, actividades a realizar, opciones de alojamiento, rutas de transporte y sitios de comida
+* Que muestre fotos de cada lugar
+
+
+Historia de Usuario 3
 Yo como USUARIO DEL BLOG Deseo PODER LOGEARME AL BLOG PARA CONSULTAR LUGARES RECOMENDABLES A VISITAR
 
 Criterios de aceptación
@@ -26,18 +37,20 @@ Criterios de aceptación
 * Que después de 3 intentos para logearme y si no se capturan los datos correctos bloquee la cuenta
 
 
-Historia de Usuario 3
-Yo como USUARIO DEL BLOG Deseo PODER REGISTRARME AL BLOG PARA CONSULTAR LUGARES RECOMENDABLES A VISITAR
-
+Historia de Usuario 4 Yo como USUARIO DEL BLOG Deseo REGISTRARME PARA  RECIBIR EL BOLETÍN DE NOTICIAS 
 Criterios de aceptación
-* Que me permita capturar mi usuario o correo electrónico para registrarme
-* Que verifique que el usuario o correo electónico no esten registrados previamente, si existen que genere un mensaje indicando lo ocurrido
-* Que me permita capturar la contraseña de mi usuario con la máscara para que no se vea esta información, la contraseña debe tener al memos 8 carácteres como mínimo(pueden ser letras mayúsculas o minúsculas, números, carácteres especiales como %&#!)
-* Que me permita capturar nuevamente la contraseña con la máscara para validar que sea la misma que la anterior capturada
-* Que haya un botón para aceptar el registro y al seleccionarlo se despliegue una pantalla de confirmación con el boton "Aceptar" y "Cancelar". Si se selecciona el botòn Aceptar para que se envié un correo a la cuenta del solicitante para dar la bienvenida, Si se   selecciona el botòn Cancelar generar el mensaje "Error al procesar el registro al blog"
+
+•	Que me pida mi nombre completo (campo obligatorio) 
+•	Que me pida mi correo electrónico (campo obligatorio)
+•	Confirmación de correo electrónico (campo obligatorio)
+•	Que verifique que las cuentas de correo sean las mismas 
+•	Que me permita dejar un comentario (opcional)
+•	Que me pida aceptar política de privacidad (campo obligatorio)
+•	Que despliegue botón para enviar datos
+•	Que genere correo electrónico de confirmación al registro
 
 
-Historia de Usuario 4
+Historia de Usuario 5
 Yo como USUARIO DEL BLOG Deseo PODER COMPLETAR MI PERFIL   
 
 Criterios de aceptación
@@ -56,14 +69,17 @@ Criterios de aceptación
 * Que haya un botón para cancelar los cambios
 
 
-Historia de Usuario 5
-Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BLOG 
+Historia de Usuario 6
+Yo como USUARIO DEL BLOG Deseo PODER CANCELAR MI SUSCRIPCION AL BOLETÍN 
 
 Criterios de aceptación
 * Que me permita capturar mi usuario o correo electrónico para registrarme
-* Que verifique que el usuario o correo electónico esten registrados previamente, si no existen que genere un mensaje indicando lo ocurrido
+* Que verifique que el usuario o correo electónico estén registrados previamente, si no existen que genere un mensaje indicando lo ocurrido
 * Que haya un botón para aceptar la solicitud
 * Que se despliegue una pantalla para confirmar el proceso
-* Si el proceso se realiza de forma correcta que genere el mensaje "Proceso de cancelación al blog, se realizó exitosamente"
-   de lo contrario que genere el mensaje "Error al procesar baja del blog"
+* Si el proceso se realiza de forma correcta que genere el mensaje "Proceso de cancelación al boletín, se realizó exitosamente"
+   de lo contrario que genere el mensaje "Error al procesar baja del boletín"
 * Que haya un botón para cancelar el proceso
+
+Historia de Usuario 7
+Yo como USUARIO DEL BLOG Deseo ESCRIBIR COMENTARIOS
